@@ -1,6 +1,6 @@
 [shell]
-program = "zellij"
-args = ["-l", "welcome"]
+program = "wsl"
+args = ["~", "--", "bash", "-c", "\"zellij -l welcome\""]
 
 [font]
 normal = { family = "FiraCode Nerd Font" }
@@ -12,4 +12,3 @@ bold_italic = { family = "FiraCode Nerd Font" }
 [colors.primary]
 background = "#0C0C0C"
 foreground = "#CCCCCC"
-
