@@ -1,15 +1,7 @@
+import = [
+  "~/.config/alacritty/alacritty_base_config.toml"
+]
+
 [shell]
 program = "zellij"
 args = ["-l", "welcome"]
-
-[font]
-normal = { family = "FiraCode Nerd Font" }
-bold = { family = "FiraCode Nerd Font" }
-italic = { family = "FiraCode Nerd Font" }
-bold_italic = { family = "FiraCode Nerd Font" }
-
-[colors]
-[colors.primary]
-background = "#0C0C0C"
-foreground = "#CCCCCC"
-
