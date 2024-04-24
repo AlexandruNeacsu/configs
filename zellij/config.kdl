@@ -1,3 +1,6 @@
+default_shell "bash" // to fix a bug in 4.0. Can be removed after upgrade
+theme "catppuccin-mocha"
+
 keybinds {
     unbind "Ctrl g" // unbind in all modes so we don't conflict with neovim
     locked {
