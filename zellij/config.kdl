@@ -8,6 +8,13 @@ keybinds {
     }
     shared_except "locked" {
         bind "Insert" { SwitchToMode "Locked"; }
+
+        bind "Alt g" {
+          Run "lazygit" {
+            floating true
+            close_on_exit true
+          };
+        }
     }
 }
 
