@@ -5,12 +5,7 @@ import = [
 
 [font]
 normal = { family = "JetBrainsMonoNL Nerd Font Propo", style = "Regular" }
-bold = { family = "JetBrainsMonoNL Nerd Font Propo Bold", style = "Bold"  }
-italic = { family = "JetBrainsMonoNL Nerd Font Propo Italic", style = "Italic"  }
-bold_italic = { family = "JetBrainsMonoNL Nerd Font Propo Bold Italic", style = "Bold Italic"  }
+bold = { family = "JetBrainsMonoNL Nerd Font Propo", style = "Bold"  }
+italic = { family = "JetBrainsMonoNL Nerd Font Propo", style = "Italic"  }
+bold_italic = { family = "JetBrainsMonoNL Nerd Font Propo", style = "Bold Italic"  }
 
-# [colors]
-# [colors.primary]
-# background = "#0C0C0C"
-# foreground = "#CCCCCC"
-#
