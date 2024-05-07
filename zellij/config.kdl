@@ -1,4 +1,4 @@
-default_shell "bash" // to fix a bug in 4.0. Can be removed after upgrade
+default_shell "zsh" // to fix a bug in 4.0. Can be removed after upgrade
 theme "catppuccin-mocha"
 
 keybinds {

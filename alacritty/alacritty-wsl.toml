@@ -4,5 +4,5 @@ import = [
 
 [shell]
 program = "wsl"
-args = ["~", "--", "bash", "-c", "\"zellij -l welcome\""]
+args = ["~", "--", "zsh", "-c", "\"zellij -l welcome\""]
 
