@@ -23,4 +23,5 @@ Follow more specific instructons ⬇️
 - [Mise-en-place](https://mise.jdx.dev/getting-started.html)
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - [Lazygit](https://github.com/jesseduffield/lazygit)
+- [Difftastic](https://difftastic.wilfred.me.uk/installation.html)
 - [Lazydocker](https://github.com/jesseduffield/lazydocker)
