@@ -2,6 +2,7 @@
 
 ## CLI
 - ZSH: `sudo apt install zsh `
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Starship](https://starship.rs/guide/)
 - [Zellj](https://zellij.dev/documentation/)
 - [Mise-en-place](https://mise.jdx.dev/getting-started.html)
