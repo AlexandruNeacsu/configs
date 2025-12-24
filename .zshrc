@@ -35,6 +35,11 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# Autosuggest settings
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
+ZSH_AUTOSUGGEST_USE_ASYNC=1
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
