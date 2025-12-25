@@ -46,4 +46,23 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval "$(zellij setup --generate-auto-start zsh)"
+eval "$(zoxide init zsh)"
+
+# zellij
+ZELLIJ_AUTO_EXIT=true
+
+ZJ_SESSIONS=$(zellij list-sessions)
+NO_SESSIONS=$(echo "${ZJ_SESSIONS}" | wc -l)
+
+if [[ -z "$ZELLIJ" ]]; then
+    if [ "${NO_SESSIONS}" -gt 1 ]; then
+        zellij -l welcome
+    else
+        zellij a -c main
+        echo "here"
+    fi
+
+    if [[ "$ZELLIJ_AUTO_EXIT" == "true" ]]; then
+        exit
+    fi
+fi
