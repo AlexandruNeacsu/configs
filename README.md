@@ -17,6 +17,7 @@ Follow more specific instructons ⬇️
 1. On Ubuntu download or build the binary: https://github.com/zellij-org/zellij/releases
 2. Move binary to `/usr/local/bin`
 3. Run `chmod +x zellij`
+4. Update terminal of choice to start with `zellij` or `zellij -l welcome`
 
 
 ### Other plugins
