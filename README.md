@@ -12,6 +12,8 @@ Follow more specific instructons ⬇️
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 4. Install [p10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
+5. Install [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
+  - install completions to `~/.config/eza/completions/zsh`
 
 ### [Zellij](https://zellij.dev/documentation/)
 1. On Ubuntu download or build the binary: https://github.com/zellij-org/zellij/releases
