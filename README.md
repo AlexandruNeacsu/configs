@@ -1,7 +1,7 @@
 # configs
 
 ## CLI
-Download `.zshrc`, `.p10k.zhs` and other files from this repo.
+Download `.zshrc`, `.aliases.zsh` & `.p10k.zhs` and other files from this repo.
 
 Follow more specific instructons ⬇️
 
@@ -13,7 +13,8 @@ Follow more specific instructons ⬇️
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 4. Install [p10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
 5. Install [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
-  - install completions to `~/.config/eza/completions/zsh`
+  - install completions to `~/.config/eza/completions/zsh`, if needed
+  - `mv ./.aliases.zsh $ZSH_CUSTOM/.aliases.zsh`
 
 ### [Zellij](https://zellij.dev/documentation/)
 1. On Ubuntu download or build the binary: https://github.com/zellij-org/zellij/releases
