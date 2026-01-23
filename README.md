@@ -12,7 +12,15 @@ Follow more specific instructons ⬇️
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 4. Install [p10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
-5. Install [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
+5. Install [Mise-en-place](https://mise.jdx.dev/getting-started.html)
+
+
+#### CLI based tools
+- [Zoxide](https://github.com/ajeetdsouza/zoxide)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fd](https://github.com/sharkdp/fd)
+  - `mise use -g fd@latest`
+- [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
   - install completions to `~/.config/eza/completions/zsh`, if needed
   - `mv ./.aliases.zsh $ZSH_CUSTOM/.aliases.zsh`
 
@@ -24,8 +32,6 @@ Follow more specific instructons ⬇️
 
 
 ### Other plugins
-- [Mise-en-place](https://mise.jdx.dev/getting-started.html)
-- [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - [Lazygit](https://github.com/jesseduffield/lazygit)
 - [Difftastic](https://difftastic.wilfred.me.uk/installation.html)
 - [Lazydocker](https://github.com/jesseduffield/lazydocker)
