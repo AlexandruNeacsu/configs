@@ -18,6 +18,7 @@ Follow more specific instructons ⬇️
 #### CLI based tools
 - [Zoxide](https://github.com/ajeetdsouza/zoxide)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fzf](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
 - [fd](https://github.com/sharkdp/fd)
   - `mise use -g fd@latest`
 - [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
